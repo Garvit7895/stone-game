@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <p class="fi"> STONE PAPER AND SCISSIOR GAME </p>
+       <div class="box">
+        <div class="se">
+          <div class="plq"><img src="pla.png" id="play" onclick="start()"></div>
+          <div class="req"><img src="res.png" id="res" onclick="restart()"></div>
+        </div>
+        <div class="thi">
+            <button id="bn" onclick="play(3)">3</button>
+            <button id="tn" onclick="play(5)">5</button>
+            <button id="rn" onclick="play(7)">7</button>
+    </div>
+    <div class="fry">
+    <div class="round"></div>
+    <div class="name">
+    <div class="player"> you</div>
+    <div class="comp">computer</div>
+    </div>
+    <div class="iw">
+        <img src="" id="you">
+        <!-- <span class="vs">VS</span> -->
+        <img src="" id="compi">
+    </div>
+    <div class="bre">
+        <button id="sto" onclick="addst('st')">STONE</button>
+        <button id="pap" onclick="addst('pa')">PAPER</button>        
+        <button id="sci" onclick="addst('sci')">SCISSIOR</button></div>
+    <div class="wo">
+        you won this round
+    </div>
+    </div>
+    <div class="score">
+    score  <button id="p1">0</button>:<button id="p2">0</button>
+    </div>
+    <div class="nex">
+        <button id="nt" onclick="ret()">NEXT</button>
+    </div>
+    <div class="la">
+        YOU Won this Game
+    </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(135deg,rgb(123, 123, 159),rgb(171, 195, 158));
+    width:100%;
+    height: 100vh;
+    padding-top: 20px;
+}
+.fi{
+    color:rgb(105, 9, 9);
+    font-size:30px;
+    text-align: center;
+    margin-top:40px;
+}
+.box{
+    margin:20px auto;
+    min-height:50px;
+    min-width:250px;
+    max-width: 350px;
+    background-color: rgb(12, 22, 14);
+    color:red;
+    border-radius:4px;
+    padding-top:5px;
+}
+.se{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+#play{
+    width:60px;
+    height:60px;
+    cursor:pointer;
+}
+#res{
+    width:80px;
+    height: 70px;
+    cursor: pointer;
+    display: none;
+
+}
+.thi{
+    margin:10px auto;
+    display: none;
+}
+.thi button{
+    width:80px;
+    height:20px;
+    text-align: center;
+    margin-left:20px;
+    cursor: pointer;
+    background-color: rgb(66, 255, 14);
+    border:0;
+    outline: 0;
+
+}
+#rn{
+    margin-left:20px;
+}
+.round{
+    text-align:center;
+    padding-top:10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.name{
+    margin-top:20px;
+    display:none;
+    justify-content: space-around;
+    color:white;
+}
+.player{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.comp{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right:00px;
+    margin-left: 100px;
+    
+
+    
+}
+.iw{
+    display: none;
+    justify-content:space-around;
+}
+.iw img{
+    width:80px;
+    height:70px;
+    margin-top: 20px;
+    display: flex;
+}
+
+ #you{
+    margin-left: 20px;
+ }
+ 
+ #compi{
+    margin-left:100px;
+}
+.bre{
+    margin-top:10px;
+    padding-bottom: 20px;
+    display:none;
+    margin-left:20px;
+    
+
+}
+.bre button{
+    display: block;
+    border-radius: 7px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    background-color:rgb(66, 255, 14) ;
+    border: 0px;
+    outline: 0px;
+    
+
+}
+#sto{
+    margin-bottom:5px;
+
+}
+#pap{
+    margin-bottom: 5px;
+}
+.wo{
+    text-align: center;
+    margin-top: 20px;
+    font-size:30px;
+    display:none;
+    color:aqua;
+}
+.score{
+    text-align: center;
+    margin-top: 20px;
+    font-size:40px;
+    display: none;
+    color:rgb(222, 149, 53);
+}
+.score button{
+    width:40px;
+    height:50px;
+    background-color: rgb(157, 219, 238);
+    outline:0px;
+    border:0px;
+}
+.nex{
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    padding-bottom: 20px;
+    
+}
+.nex button{
+    height:30px;
+    width:100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: greenyellow;
+    border: 0px;
+    outline:0px;
+}
+
+.la{
+    text-align:center;
+    margin-top:20px;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+    display: none;
+}
+
